@@ -1,0 +1,116 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.statusBar.feedback.visible": false,
+  "files.defaultLanguage": "html",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "workbench.editor.tabSizing": "shrink",
+  "editor.detectIndentation": false,
+  // "editor.insertSpaces": false,
+  // "editor.glyphMargin": false,
+  "editor.smoothScrolling": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.suggestOnTriggerCharacters": false,
+  "terminal.integrated.fontSize": 14,
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "on",
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": true,
+  "editor.showFoldingControls": "always",
+  "editor.folding": true,
+  "editor.foldingStrategy": "indentation",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "d",
+        "f"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    },
+    {
+      "before": [
+        "j"
+      ],
+      "after": [
+        "g",
+        "j"
+      ]
+    },
+    {
+      "before": [
+        "k"
+      ],
+      "after": [
+        "g",
+        "k"
+      ]
+    },
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-x>": false,
+    "<C-]>": false,
+    "<C-[>": false,
+    "<C-f>": false,
+    "<C-n>": false
+  },
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#292929",
+    "statusBar.noFolderBackground": "#292929",
+    "statusBar.debuggingBackground": "#292929"
+  },
+  "sync.gist": "b93ae9061b6dc833c7c99fc5b2df0cab",
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "editor.minimap.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.rendererType": "dom",
+  "workbench.colorTheme": "One Monokai",
+  "workbench.activityBar.visible": false,
+  "breadcrumbs.enabled": false,
+  "window.zoomLevel": 0,
+  // "workbench.settings.useSplitJSON": true,
+  "workbench.settings.editor": "json",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.defaultInterpreterPath": "C:\\Users\\mikbrazh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  // "editor.renderLineHighlight": "none"
+}
