@@ -1,0 +1,13 @@
+[
+  { "keys": ["alt+a"],  "command": "note_todo_pending", "context":
+    [{ "key": "selector", "operator": "equal", "operand": "text.html.markdown.note" }]
+  },
+
+  { "keys": ["alt+1"],  "command": "note_todo_done", "context":
+    [{ "key": "selector", "operator": "equal", "operand": "markup.list.unnumbered.todo.markdown | meta.paragraph.list.markdown" }]
+  },
+
+  { "keys": ["alt+2"],  "command": "note_todo_cancel", "context":
+    [{ "key": "selector", "operator": "equal", "operand": "markup.list.unnumbered.todo.markdown | meta.paragraph.list.markdown" }]
+  },
+]
