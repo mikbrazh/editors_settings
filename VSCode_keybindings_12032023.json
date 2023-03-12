@@ -139,5 +139,10 @@
   {
     "key": "ctrl+k ctrl+l",
     "command": "editor.action.transformToLowercase"
+  },
+  { 
+    "key": "ctrl+shift+x", 
+    "command": "extension.ecsstractor_port_run", 
+    "when": "editorTextFocus" 
   }
 ]

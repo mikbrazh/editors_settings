@@ -112,5 +112,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.defaultInterpreterPath": "C:\\Users\\mikbrazh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+  "ecsstractor_port.brackets": false,
   // "editor.renderLineHighlight": "none"
 }
