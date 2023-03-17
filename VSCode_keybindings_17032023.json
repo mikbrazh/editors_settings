@@ -144,5 +144,13 @@
     "key": "ctrl+shift+x", 
     "command": "extension.ecsstractor_port_run", 
     "when": "editorTextFocus" 
+  },
+  {
+    "key": "ctrl+shift+z",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
+    }
   }
 ]
