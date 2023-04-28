@@ -16,7 +16,17 @@
 	// 	"description": "Log output to console"
 	// }
 
-  "vpseudo elements css": {
+  "Print to console": {
+    "scope": "javascript,typescript",
+    "prefix": "cl",
+    "body": [
+      "console.log('$1');",
+      "$2"
+    ],
+    "description": "Log output to console"
+  },
+
+  "Pseudo elements css": {
     "prefix": "pse",
     "body": [
       "content: ''",
@@ -33,10 +43,10 @@
       "background-repeat: no-repeat",
       "$2"
     ],
-    "description": "vpseudo elements css"
+    "description": "Pseudo elements css"
   },
 
-  "font settings css": {
+  "Set font css": {
     "prefix": "ff",
     "body": [
       "font-family: $1",
@@ -48,7 +58,6 @@
       "color: #FFFFFF",
       "$2"
     ],
-    "description": "font settings css"
+    "description": "Set font css"
   }
-
 }
